@@ -38,7 +38,6 @@ class DayToggle {
       this.setText()
     })
   }
-  // 
 }
 
 document.addEventListener("DOMContentLoaded", () => {

@@ -1,0 +1,40 @@
+{
+  "name": "nxns",
+  "private": true,
+  "dependencies": {
+    "@babel/preset-react": "*",
+    "@rails/actioncable": "*",
+    "@rails/activestorage": "*",
+    "@rails/ujs": "*",
+    "@rails/webpacker": "*",
+    "@types/react": "*",
+    "@types/react-dom": "*",
+    "@types/styled-components": "^4.1.19",
+    "babel-plugin-transform-react-remove-prop-types": "*",
+    "bulma": "*",
+    "prop-types": "*",
+    "react": "*",
+    "react-dom": "*",
+    "stimulus": "https://github.com/stimulusjs/dev-builds/archive/b8cc8c4/stimulus.tar.gz",
+    "styled-components": "^4.3.2",
+    "ts-loader": "*",
+    "turbolinks": "*",
+    "typescript": "*"
+  },
+  "version": "*",
+  "devDependencies": {
+    "@types/webpack-env": "*",
+    "@typescript-eslint/eslint-plugin": "*",
+    "@typescript-eslint/parser": "*",
+    "eslint": "*",
+    "eslint-config-prettier": "*",
+    "eslint-plugin-prettier": "*",
+    "eslint-plugin-react": "*",
+    "prettier": "*",
+    "webpack-dev-server": "*"
+  },
+  "scripts": {
+    "eslint": "eslint '*/**/*.{js,ts,tsx}'",
+    "eslint_fix": "eslint '*/**/*.{js,ts,tsx}' --fix"
+  }
+}

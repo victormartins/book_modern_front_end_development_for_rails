@@ -1,0 +1,15 @@
+@import '~bulma';
+
+.background-arrow {
+  background-image: url("../images/arrow.svg");
+  width: 25px;
+  height: 25px;
+
+  &.is-open {
+    transform: rotate(90deg);
+  }
+
+  &.is-closed {
+    transform: rotate(-90deg);
+  }
+}

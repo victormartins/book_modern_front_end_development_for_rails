@@ -22,7 +22,7 @@ Metrics/AbcSize:
   Enabled: false
 
 Metrics/LineLength:
-  Max: 80
+  Max: 120
   Exclude:
     - "Rakefile"
     - "app/views/**/*.jbuilder"
